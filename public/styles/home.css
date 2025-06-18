@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: black;
+}
+
+.navbar {
+    background-color: rgba(0, 0, 0, 0.875);
+    border-bottom: 2px solid #124830;
+    height: 80px;
+    position: fixed;
+}
+
+.logo img{
+    height: 65px;
+    width: auto;
+    margin-left: 8px;
+    margin-top: 8px;
+}
+
+.menu ul{
+    display: flex;
+    list-style: none;
+}
+
+.menu ul li {
+    margin-right: 30px;
+    color: white;
+    font-size: medium;
+    border: 2px solid white;
+    border-radius: 13px;
+    transition: .5s;
+}
+
+.menu ul li a {
+    display: inline-block;
+    padding: 8px;
+    transition: .5s;
+    font-weight: 50px;
+}
+
+.menu ul li:hover {
+    background-color: white;
+    border-color: #124830;
+}
+
+.menu {
+    margin-left: 993px;
+    margin-top: -31px;
+    transition: .5s;
+}
+
+.menu a {
+    text-decoration: none;
+    color: white;
+    transition: .5s;
+}
+
+.menu a:hover {
+    transform: scale(1.05);
+    color: black;
+}
+
+.darp-tekst-logo {
+    display: flex;
+    color: white;
+    font-weight: 700;
+    font-size: 20px;
+    margin-left: 85px;
+    margin-top: -45px;
+}
+
+#home {
+    width: 100%;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#home h1 {
+    color: white;
+    margin-top: 5px;
+    font-size: 60px;
+
+}
+
+#home img {
+    margin-top: 85px;
+    height: 280px;
+    width: auto;
+}
+
+#home h3 {
+    color: white;
+    font-size: 100;
+    margin-left: 295px;
+    margin-right: 295px;
+    margin-top: 10px;
+}
+
+#home .discord-button-home a {
+    color: white;
+    display: inline-block;
+    background-color: #124830;
+    text-decoration: none;
+    margin-top: 28px;
+    padding: 12px 40px 12px 40px;
+    border-radius: 20px;
+    font-weight: 550;
+}
